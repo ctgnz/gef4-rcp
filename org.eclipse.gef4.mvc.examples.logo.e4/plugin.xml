@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="GEF4 MVC Logo Example"
+            application="org.eclipse.fx.ui.workbench.fx.application">
+         <property
+               name="appName"
+               value="GEF4 MVC Logo Example">
+         </property>
+         <property
+               name="applicationXMI"
+               value="org.eclipse.gef4.mvc.examples.logo.e4/Application.e4xmi">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_UjyYQANiEeaH_Z4SHcK39Q" elementId="org.eclipse.e4.ide.application" bindingContexts="_Ujy_WANiEeaH_Z4SHcK39Q">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_Ujy_UANiEeaH_Z4SHcK39Q" label="org.eclipse.gef4.mvc.examples.logo.e4" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_rtPAEANiEeaH_Z4SHcK39Q" elementId="org.eclipse.gef4.mvc.examples.logo.rcp.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_rtPAEQNiEeaH_Z4SHcK39Q" elementId="org.eclipse.gef4.mvc.examples.logo.rcp.perspective.0">
+        <children xsi:type="basic:Part" xmi:id="_rtPAEgNiEeaH_Z4SHcK39Q" elementId="org.eclipse.gef4.mvc.examples.logo.rcp.part.mvclogoexample" contributionURI="bundleclass://org.eclipse.gef4.mvc.examples.logo.e4/org.eclipse.gef4.mvc.examples.logo.e4.MvcLogoExamplePart" label="MVC Logo Example"/>
+      </children>
+    </children>
+  </children>
+  <rootContext xmi:id="_Ujy_WANiEeaH_Z4SHcK39Q" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_Ujy_WQNiEeaH_Z4SHcK39Q" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_Ujy_WgNiEeaH_Z4SHcK39Q" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_Ujy_UQNiEeaH_Z4SHcK39Q" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_Ujy_UgNiEeaH_Z4SHcK39Q" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_Ujy_UwNiEeaH_Z4SHcK39Q" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_Ujy_VANiEeaH_Z4SHcK39Q" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_Ujy_VQNiEeaH_Z4SHcK39Q" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_Ujy_VgNiEeaH_Z4SHcK39Q" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_Ujy_VwNiEeaH_Z4SHcK39Q" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
